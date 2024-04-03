@@ -1,0 +1,126 @@
+/* navbar styling */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    /* padding: 30px 0; */
+    font-family: 'Rubik', sans-serif;
+    transition: all 0.3s ease;
+    background: #000000;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 0.6rem;
+}
+
+.navbar .logo a span {
+    color: #00bfff;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+    padding: 15px 0;
+    background: crimson;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar .menu li {
+    list-style: none;
+    /* display: inline-block; */
+    /* margin-right: 1rem; */
+}
+
+.navbar .menu li a {
+    display: flex;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    /* color: crimson; */
+    color: deepskyblue;
+}
+
+.navbar.sticky .menu li a:hover {
+    color: #fff;
+}
+
+/*Login*/
+.navbar .login li a {
+    display: flex;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .login li a:hover {
+    color: deepskyblue;
+}
+
+.navbar.sticky .login li a:hover {
+    color: #fff;
+}
+
+
+/*Blur Effect*/
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.navbar ul:hover li {
+    filter: blur(2px);
+}
+
+.navbar ul li:hover {
+    filter: blur(0px);
+}
+
+
+/* .scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+} */
+
+/* .scroll-up-btn.show {
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+} */
+
+/* .scroll-up-btn:hover {
+    filter: brightness(90%);
+} */
