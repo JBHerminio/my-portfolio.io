@@ -23,14 +23,6 @@ Here are some of the key projects in my portfolio:
 - [Link to Repository](https://github.com/JHerminio/my-portfolio)
 - [Link to Live Demo/Website]([link-to-live-demo](https://jherminio.github.io/my-portfolio/))
 
-### [Project Name 2](link-to-project-2)
-- Description: Brief description of the project.
-- Technologies Used: List of technologies/languages used in the project.
-- [Link to Repository](link-to-repository)
-- [Link to Live Demo/Website](link-to-live-demo)
-
-[Add more projects as needed]
-
 ## Skills
 
 - Programming Languages: List of programming languages you're proficient in.
