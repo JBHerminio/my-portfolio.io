@@ -44,24 +44,24 @@ function Contact() {
 
           <div class="socialMedia">
             {/* facebook*/}
-            <div class="button">
+            {/* <div class="button">
               <div class="icon">
                 <a href="https://www.facebook.com/jayson.herminio/">
                   <i class="fab fa-facebook-f"></i>
                   Facebook
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* youtube*/}
-            <div class="button">
+            {/* <div class="button">
               <div class="icon">
                 <a href="https://www.youtube.com/channel/UCy--WZUDkZ5DVmcW5UBVlTw">
                   <i class="fab fa-youtube"></i>
                   YouTube
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/*twitter */}
             {/* <div class="button">
