@@ -33,8 +33,7 @@ Here are some of the key projects in my portfolio:
 
 - Email: jaysonberherminio@gmail.com
 - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
-- Twitter: [Your Twitter Profile](https://twitter.com/your-profile/)
-- Personal Website/Blog: [Your Personal Website or Blog](https://www.yourwebsite.com)
+- Personal Website: [My Website](https://jbherminio.github.io/my-portfolio.io/)
 
 Feel free to reach out to me if you have any questions, suggestions, or opportunities for collaboration!
 
@@ -42,6 +41,3 @@ Feel free to reach out to me if you have any questions, suggestions, or opportun
 
 This portfolio is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
 
----
-
-You can customize this template by replacing placeholders (like [Your Name], [Project Name], etc.) with your actual information and project details. Additionally, you can add or remove sections as needed to better showcase your portfolio.
