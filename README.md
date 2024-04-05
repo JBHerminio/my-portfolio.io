@@ -11,7 +11,7 @@ Welcome to my GitHub portfolio! This repository serves as a showcase of my proje
 
 ## About Me
 
-I'm [Jayson Herminio], a passionate [Frontend developer / Web Developer.]. I have a keen interest in [specific area of interest], and I love to create innovative solutions to real-world problems. My journey in programming began [briefly describe your journey or background]. 
+I'm Jayson Herminio, a passionate Frontend developer / Web Developer. I have a keen interest in coding, and I love to create innovative solutions to real-world problems. My journey in programming began [briefly describe your journey or background]. 
 
 ## Projects
 
