@@ -20,8 +20,8 @@ Here are some of the key projects in my portfolio:
 ### [my-portfolio](https://jherminio.github.io/my-portfolio/)
 - Description: My 1st Portfolio.
 - Technologies Used: JavaScript / HTML / CSS / React.
-- [Link to Repository](https://github.com/JHerminio/my-portfolio)
-- [Link to Live Demo/Website]([link-to-live-demo](https://jbherminio.github.io/my-portfolio.io/)
+- [Link to Repository](https://github.com/JHerminio/my-portfolio.io)
+- [Link to Live Demo/Website]([My Portfolio](https://jbherminio.github.io/my-portfolio.io/))
 
 ## Skills
 
