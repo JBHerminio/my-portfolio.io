@@ -2,6 +2,7 @@
 
 Welcome to my GitHub portfolio! This repository serves as a showcase of my projects and contributions. Here, you'll find a variety of projects ranging from personal coding experiments to collaborative open-source contributions.
 
+
 ## Table of Contents
 - [About Me](#about-me)
 - [Projects](#projects)
