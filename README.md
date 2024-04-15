@@ -37,7 +37,4 @@ Here are some of the key projects in my portfolio:
 
 Feel free to reach out to me if you have any questions, suggestions, or opportunities for collaboration!
 
-## License
-
-This portfolio is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
 
