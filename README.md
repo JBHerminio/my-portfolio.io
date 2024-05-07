@@ -23,6 +23,7 @@ Here are some of the key projects in my portfolio:
 - Technologies Used: JavaScript / HTML / CSS / React.
 - [Link to Repository](https://github.com/JBHerminio/my-portfolio.io)
 - [Link to Live Demo/Website]([My Portfolio](https://jbherminio.github.io/my-portfolio.io/))
+*Note: Applicable for Website only but in Android, I will fix the design.
 
 ## Skills
 
