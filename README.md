@@ -8,7 +8,7 @@ Welcome to my GitHub portfolio! This repository serves as a showcase of my proje
 - [Projects](#projects)
 - [Skills](#skills)
 - [Contact Information](#contact-information)
-- [License](#license)
+
 
 ## About Me
 
@@ -27,9 +27,10 @@ Here are some of the key projects in my portfolio:
 
 ## Skills
 
-- Programming Languages: List of programming languages you're proficient in.
-- Frameworks & Libraries: List of frameworks and libraries you're familiar with.
-- Tools & Technologies: List of tools and technologies you've worked with.
+- HTML5, CSS3, JavaScript, React, Typescript
+- Git, Material UI, npm
+- Figma, Scrum, Jira, Bitbucket, Github
+
 
 ## Contact Information
 
