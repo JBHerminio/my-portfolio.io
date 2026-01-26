@@ -5,6 +5,17 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -14,4 +25,57 @@
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
+}
+
+/* Mobile Responsive Base Styles */
+@media (max-width: 1200px) {
+  .max-width {
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .max-width {
+    padding: 0 30px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .max-width {
+    padding: 0 20px;
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .max-width {
+    padding: 0 15px;
+  }
+
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .max-width {
+    padding: 0 12px;
+  }
+
+  html {
+    font-size: 12px;
+  }
 }

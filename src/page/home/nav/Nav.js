@@ -1,39 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './Nav.css';
 import Time from './time/Time';
 
 function Nav() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const handleMenuClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <>
-      {/* <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-      </div> */}
-      <nav class="navbar">
-        <div class="max-width">
-          <div class="logo">
+      <nav className="navbar">
+        <div className="max-width">
+          <div className="logo">
             <a href="/">My <span>Portfolio</span></a>
           </div>
-          <div>
+          <div className="time-container">
             {<Time />}
           </div>
-          <ul class="menu">
-            <li><a href="#home" class="menu-btn">Home</a></li>
-            <li><a href="#about" class="menu-btn">About</a></li>
-            <li><a href="#services" class="menu-btn">Services</a></li>
-            <li><a href="#skills" class="menu-btn">Skills</a></li>
-            <li><a href="#contact" class="menu-btn">Contact</a></li>
-            {/* <li><a href="#login" class="menu-btn">Login</a></li> */}
-
+          <ul className={`menu ${menuOpen ? 'active' : ''}`}>
+            <li><a href="#home" className="menu-btn" onClick={handleMenuClick}>Home</a></li>
+            <li><a href="#about" className="menu-btn" onClick={handleMenuClick}>About</a></li>
+            <li><a href="#services" className="menu-btn" onClick={handleMenuClick}>Services</a></li>
+            <li><a href="#skills" className="menu-btn" onClick={handleMenuClick}>Skills</a></li>
+            <li><a href="#contact" className="menu-btn" onClick={handleMenuClick}>Contact</a></li>
           </ul>
-          {/* <ul class="login">
-            <li><a href="#" class="menu-btn" >Login</a></li>
-          </ul>
-          <div class="menu-btn">
-            <i class="fas fa-bars"></i>
-          </div> */}
+          <div className={`hamburger ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-      </nav >
+      </nav>
     </>
   )
 };

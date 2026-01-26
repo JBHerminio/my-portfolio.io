@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css";
-import img from '../../../images/matt.jpg';
+import img from '../../../images/matt2.jpg';
 
 function About() {
 
@@ -12,7 +12,7 @@ function About() {
           <div class="about-content">
             <div class="box">
               <div class="column left">
-                <img src={img} alt=""></img>
+                 <img src={img} alt=""></img>
               </div>
             </div>
 

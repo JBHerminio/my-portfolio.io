@@ -20,7 +20,7 @@ function Home() {
             </div>
             <div>
               <a class="hireMe" href="#contact">
-                Hire me
+                Resume
               </a>
               {/* <a href="/">Download CV
                 <i class="fas fa-download"></i>

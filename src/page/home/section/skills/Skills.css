@@ -98,7 +98,7 @@ p3 {
 }
 
 .skills-content .right .css::before {
-    width: 60%;
+    width: 80%;
 }
 
 .skills-content .right .js::before {
@@ -108,11 +108,6 @@ p3 {
 .skills-content .right .react::before {
     width: 50%;
 }
-
-.skills-content .right .php::before {
-    width: 5%;
-}
-
-.skills-content .right .mysql::before {
-    width: 5%;
+.skills-content .right .wordpress::before {
+    width: 90%;
 }

@@ -28,7 +28,7 @@ function Skills() {
               <div class="bars">
                 <div class="info">
                   <span>CSS</span>
-                  <span>60%</span>
+                  <span>80%</span>
                 </div>
                 <div class="line css"></div>
               </div>
@@ -45,6 +45,13 @@ function Skills() {
                   <span>50%</span>
                 </div>
                 <div class="line react"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>WordPress</span>
+                  <span>90%</span>
+                </div>
+                <div class="line wordpress"></div>
               </div>
               {/* <div class="bars">
                 <div class="info">

@@ -1,6 +1,5 @@
 import './page/appStyle/App.css';
 import './page/appStyle/ScrollBar.css';
-// import './page/appStyle/Media.css';
 
 import Nav from './page/home/nav/Nav';
 import Section from './page/home/section/Section';

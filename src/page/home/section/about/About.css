@@ -30,11 +30,9 @@
 
 .about .about-content .left img {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 25rem;
     object-fit: cover;
-    border-radius: 90px 25px;
-    filter: drop-shadow(12px 8px 4px #605Dff);
+    border-radius: 10px 10px;
     transition: all 0.3s ease;
     margin-right: 2rem;
     margin-bottom: 1rem;
