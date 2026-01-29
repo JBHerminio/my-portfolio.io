@@ -6,12 +6,10 @@ import About from './about/About';
 import Services from './services/Services';
 import Contact from './contact/Contact';
 import Skills from './skills/Skills';
-// import Login from '../../loginPage/Login.js';
 
 function Section() {
   return (
     <>
-      {/* <Login /> */}
       <Home />
       <About />
       <Services />

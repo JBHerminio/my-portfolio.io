@@ -47,8 +47,7 @@ section .title {
 .services,
 .skills,
 .contact,
-.footer,
-.login {
+.footer{
     font-family: 'Rubik', sans-serif;
 }
 
@@ -81,9 +80,7 @@ section .title {
         margin-top: 0.5rem;
     }
 
-    .max-width {
-        padding: 0 30px;
-    }
+
 
     .about .about-content,
     .services .serv-content,

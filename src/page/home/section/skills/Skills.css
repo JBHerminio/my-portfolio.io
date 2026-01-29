@@ -1,14 +1,17 @@
 /* skills section styling */
 .skills {
-    height: 40rem;
+    padding-bottom: 2rem;
 }
 
 .skills .title::after {
     background: transparent;
 }
 
+/* flexible two-column layout. columns collapse to full width on smaller screens */
 .skills .skills-content .column {
-    width: calc(50% - 30px);
+    flex: 1 1 280px;
+    max-width: 48%;
+    box-sizing: border-box;
 }
 
 .skills .skills-content .left .text {
@@ -18,19 +21,56 @@
     color: #fff;
 }
 
-.skills .skills-content .left p1,
-p2,
-p3 {
+/* paragraph styling - use standard <p> elements now */
+.skills .skills-content .left p.lead {
     font-size: 15px;
     margin-bottom: 1rem;
-    display: flex;
     color: #fff;
-
+    line-height: 1.4;
 }
 
 .skills .skills-content .left p {
     text-align: justify;
     color: #fff;
+    margin-bottom: 1rem;
+}
+
+/* scope skill bar widths to the skills section */
+.skills .skills-content .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+
+.skills .skills-content .right .html::before { width: 60%; }
+.skills .skills-content .right .css::before { width: 80%; }
+.skills .skills-content .right .js::before { width: 60%; }
+.skills .skills-content .right .react::before { width: 50%; }
+.skills .skills-content .right .wordpress::before { width: 90%; }
+
+/* Mobile adjustments */
+@media (max-width: 947px) {
+  .skills .skills-content .column {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills .skills-content .left .text {
+    font-size: 18px;
+  }
+  .skills .skills-content .left p.lead,
+  .skills .skills-content .left p{
+    font-size: 15px;
+  }
+  .skills {
+    padding-bottom: 1rem;
+  }
 }
 
 .skills .skills-content .left a {
