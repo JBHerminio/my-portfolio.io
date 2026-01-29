@@ -67,6 +67,20 @@ function Skills() {
                 </div>
                 <div class="line mysql"></div>
               </div> */}
+              {/* <div class="bars">
+                <div class="info">
+                  <span>PHP</span>
+                  <span>5%</span>
+                </div>
+                <div class="line php"></div>
+              </div> */}
+              {/* <div class="bars">
+                <div class="info">
+                  <span>Python</span>
+                  <span>5%</span>
+                </div>
+                <div class="line mysql"></div>
+              </div> */}
             </div>
           </div>
         </div>

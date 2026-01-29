@@ -7,7 +7,7 @@ const TypeWriter = () => {
             options={{
                 strings: ['Front-end Developer', 'Web Developer', 'Programer'],
                 typeSpeed: 60,
-                backSpeed: 60,
+                backSpeed: 50,
                 autoStart: true,
                 loop: true,
             }}
