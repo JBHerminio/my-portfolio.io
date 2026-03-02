@@ -19,8 +19,9 @@ function About() {
             <div class="box">
               <div class="column right">
                 <div class="sub-title">Core Value</div>
-                <p1>I am seeking an opportunity as a Computer Engineer graduate where I can use my academic knowledge.
-                  And I wish to work hard for organizational goals through my technical skills, hard work, and creativity.</p1>
+                <p1>I’m a passionate Frontend Developer who enjoys turning ideas into clean, responsive, and user-friendly web interfaces.
+                  I focus on writing maintainable code and creating smooth user experiences using modern web technologies.
+                  I’m always eager to learn, improve, and build products that people actually enjoy using.</p1>
                 <p4>If you have any leads or opportunities that align with my skill set, I love to hear from you.</p4>
               </div>
             </div>
