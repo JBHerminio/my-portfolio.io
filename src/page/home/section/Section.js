@@ -1,7 +1,7 @@
 import React from 'react';
 import './Section.css';
 
-import Home from "./home/Home.js";
+import Home from "../landingPage/Home.js";
 import About from './about/About';
 import Services from './services/Services';
 import Contact from './contact/Contact';

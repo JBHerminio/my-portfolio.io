@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Home.css";
 
-import TypeWriter from "../TypeWriter";
+import TypeWriter from "../section/TypeWriter";
 
 function Home() {
   return (

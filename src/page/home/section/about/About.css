@@ -25,7 +25,6 @@
 
 .about .about-content .left {
     width: 45%;
-
 }
 
 .about .about-content .left img {
@@ -45,8 +44,6 @@
 .about .about-content .right {
     display: block;
     height: 400px;
-    width: 400px;
-    /* align-items:center; */
     text-align: justify;
     color: #fff;
 }

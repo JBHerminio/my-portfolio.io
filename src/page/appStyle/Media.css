@@ -1,11 +1,8 @@
-/* responsive media query start */
-@media (max-width: 1080px) {
+/* @media (max-width: 1080px) {
     .home {
         display: flex;
-        /* align-items: center; */
         justify-content: center;
         height: 100vh;
-        /* min-height: 500px; */
         color: #fff;
         font-family: 'Rubik', sans-serif;
         background-size: cover;
@@ -149,4 +146,4 @@
         font-size: 23px;
         line-height: 38px;
     }
-}
+} */
